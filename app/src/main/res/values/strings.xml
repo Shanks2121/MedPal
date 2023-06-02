@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MedPal</string>
+    <string name="_0">0</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="surface">Surface</string>
+    <string name="lets_sign_you_in">Lets Sign You in</string>
+    <string name="welcome_back_you_ve_been_missed">Welcome Back, You\'ve Been missed</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_add_alarm">AddAlarmActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

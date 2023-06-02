@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/light_gradient_4"
+    tools:context=".activities.OnBoardingActivity">
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnOnBoardingSkip"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        app:cornerRadius="10dp"
+        android:elevation="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="#4B56D2"
+        android:text="SKIP"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:gravity="center"
+        android:layout_marginBottom="150dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="344dp"
+            android:src="@drawable/on_boarding_1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "For Your Loved One's"
+            android:layout_gravity="center"
+            style="@style/TextAppearance.Material3.HeadlineMedium"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "We'll Remind Them So They Stay Healthy"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnOnBoardingSignUp"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        app:cornerRadius="10dp"
+        android:padding="15dp"
+        android:text="Sign up"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="48dp"
+        android:layout_marginStart="10dp"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnOnBoardingLogin"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:elevation="15dp"
+        android:background="@drawable/btn_shape_login"
+        android:text="LOGIN"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginBottom="50dp"
+        android:layout_marginEnd="10dp"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
